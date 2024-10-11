@@ -138,10 +138,6 @@ img {
         width: 100%;
         margin: 3rem auto;
     }
-
-    .steps {
-        width: 100%;
-    }
  }
 
  /* For mobile (from 480px down) */
@@ -186,5 +182,17 @@ img {
 
     .why-us .col-left img {
         margin-bottom: 60px;
+    }
+ }
+
+ /* For width range (from 768px to 1160px) */
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        width: 80%;
+    }
+
+    .site-header {
+        width: 80%;
+        margin: 3rem auto;
     }
  }
